@@ -14,8 +14,8 @@
     background-size: cover;
 }
 .bird {
-	height: 100px;
-	width: 130px;
+	height: 80px;
+	width: 100px;
 	position: fixed;
 	top: 40vh;
 	left: 30vw;
@@ -33,17 +33,17 @@
 .message {
 	position: absolute;
 	z-index: 10;
-	color: black;
+	color: rgb(0, 0, 0);
 	top: 30%;
 	left: 50%;
-	font-size: 4em;
+	font-size: 2em;
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
 .messageStyle{
-	background: white;
+	background: rgb(246, 246, 246);
 	padding: 30px;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	box-shadow: rgba(221, 32, 32, 0.24) 0px 3px 8px;
 	border-radius: 5%;
 }
 .score {
